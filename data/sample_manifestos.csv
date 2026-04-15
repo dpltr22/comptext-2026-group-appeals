@@ -1,0 +1,21 @@
+party,year,sentence_id,text
+Labour,2019,1,We will ensure that workers receive a real living wage and better protections at work.
+Labour,2019,2,Families across the country deserve better public services and affordable housing.
+Labour,2019,3,Our NHS staff have been overworked and underpaid for far too long.
+Labour,2019,4,We will scrap tuition fees so that students are not saddled with debt.
+Labour,2019,5,Pensioners must not have to choose between heating and eating this winter.
+Conservative,2019,1,We have created more jobs for young people than ever before.
+Conservative,2019,2,Small business owners are the backbone of the British economy.
+Conservative,2019,3,We will recruit 20000 more police officers to keep our communities safe.
+Conservative,2019,4,Hard-working families deserve to keep more of their own money.
+Conservative,2019,5,Criminals who commit violent offences must face the full force of the law.
+Greens,2019,1,The rich are getting richer whilst everyone else struggles to make ends meet.
+Greens,2019,2,Migrants make enormous contributions to our economy our public services and our culture.
+Greens,2019,3,People with disabilities have been failed by years of austerity.
+Greens,2019,4,Farmers must be supported to transition to sustainable practices.
+Greens,2019,5,Future generations deserve a planet that is liveable and just.
+LibDem,2019,1,Teachers and school staff need proper investment not endless reorganisation.
+LibDem,2019,2,Refugees fleeing war and persecution must be welcomed with dignity.
+LibDem,2019,3,Carers do invaluable work and deserve recognition and support.
+LibDem,2019,4,Self-employed workers have been left behind by the current tax system.
+LibDem,2019,5,LGBTQ+ people still face discrimination that we must legislate to end.

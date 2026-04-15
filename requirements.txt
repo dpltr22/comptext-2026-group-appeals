@@ -1,0 +1,13 @@
+# Core
+groupappeals>=0.1
+pandas>=2.0
+numpy>=1.24
+
+# NLP backbone (pulled in by groupappeals, pinned here for reproducibility)
+torch>=2.0
+transformers>=4.35
+
+# Notebook + analysis
+jupyter>=1.0
+matplotlib>=3.7
+seaborn>=0.13
