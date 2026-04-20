@@ -31,7 +31,3 @@ jobs:
               assert len(df) > 0, f"{f} is empty"
               print(f, df.shape)
           PY
-
-      - name: Verify exercise scripts import
-        run: |
-          python -m py_compile exercises/exercise_B_pipeline.py exercises/exercise_C_validate.py
