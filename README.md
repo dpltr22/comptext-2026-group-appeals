@@ -71,7 +71,7 @@ Full instructions live in [`exercises/`](exercises/).
 If you use the package, codebook, or PSoGA database in your research, please cite:
 
 - Dolinsky, A.O, Huber, L.M., & Horne, W. (2026). *PSoGA: Sentence-level and manifesto-level social group appeals in party election manifestos across eight European democracies, 1970–2025* [Data set]. Harvard Dataverse. <https://doi.org/10.7910/DVN/FVI3QW>
-- Huber, R. A., & Dolinsky, A. (2023). On the definition and measurement of social-group appeals.
+- Huber, L.M., & Dolinsky, A.O. (2023). How parties shape their relationship with social groups:A roadmap to the study of group-based appeals. OSF. https://osf.io/preprints/osf/szaqw_v1
 
 ## License
 
