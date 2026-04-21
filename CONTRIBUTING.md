@@ -32,5 +32,5 @@ Thanks for your interest in improving the workshop materials! This repository is
 
 For workshop or research questions, reach out to the maintainers:
 
-- Alona Dolinsky — a.dolinsky@bham.ac.uk
+- Alona O. Dolinsky — a.o.dolinsky@bham.ac.uk
 - Dylan Paltra — dylan.paltra@uni-oldenburg.de

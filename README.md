@@ -1,7 +1,7 @@
 # From Concept to Computation: Identifying Group Appeals in Text
 
 **COMPTEXT 2026 Workshop · University of Birmingham**
-*Alona Dolinsky (a.dolinsky@bham.ac.uk) & Dylan Paltra (dylan.paltra@uni-oldenburg.de)*
+*Alona O. Dolinsky (a.o.dolinsky@bham.ac.uk) & Dylan Paltra (dylan.paltra@uni-oldenburg.de)*
 
 This repository contains all materials for the COMPTEXT 2026 workshop on identifying social-group appeals in political text — from manual annotation through automated detection with the [`groupappeals`](https://pypi.org/project/groupappeals/) Python package.
 
