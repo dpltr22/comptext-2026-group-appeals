@@ -9,60 +9,16 @@ This repository contains all materials for the COMPTEXT 2026 workshop on identif
 
 ## What you'll learn
 
-- **Part 1 — Concept & Manual Annotation (~75 min):** why group appeals matter, how social groups and appeals are defined, how to build a reliable annotation codebook, and how to validate it.
-- **Part 2 — Computation & Practice (~90 min):** an end-to-end NLP pipeline (group detection → stance → policy → category), hands-on use of the `groupappeals` package, and a guided exercise on sample data.
+- **Part 1 — Concept & Manual Annotation:** why group appeals matter, how social groups and appeals are defined, how to build a reliable annotation codebook, and how to validate it.
+- **Part 2 — Computation & Practice:** an end-to-end NLP pipeline walkthrough (group detection → stance → policy → category), hands-on use of the `groupappeals` package, and a guided exercise on sample data.
 
-## Repository structure
+## Hands-on exercise
 
-```
-.
-├── README.md                  # this file
-├── slides/                    # workshop slide deck (PDF / PPTX)
-├── docs/
-│   ├── codebook.md            # manual annotation codebook
-│   ├── group_categories.md    # the 43 meaningful group categories
-│   └── setup.md               # detailed installation & troubleshooting
-├── data/
-│   ├── sample_manifestos.csv  # small CSV for the hands-on exercise
-│   └── annotation_practice.csv# 10 sentences for Exercise A
-├── exercises/
-│   ├── exercise_A_manual.md   # manual annotation worksheet
-│   ├── exercise_B_pipeline.py # run the groupappeals pipeline
-│   └── exercise_C_validate.py # explore & validate results
-├── notebooks/
-│   └── workshop_walkthrough.ipynb
-├── requirements.txt
-├── environment.yml            # conda alternative
-├── LICENSE
-└── .github/workflows/ci.yml
-```
-
-## Quick start
-
-```bash
-# 1. Clone
-git clone https://github.com/<your-org>/comptext-2026-group-appeals.git
-cd comptext-2026-group-appeals
-
-# 2. Set up an environment (pick one)
-python -m venv .venv && source .venv/bin/activate   # Linux / macOS
-# .venv\Scripts\activate                            # Windows
-
-pip install -r requirements.txt
-
-# 3. Verify
-python -c "from groupappeals import run_full_pipeline; print('ok')"
-```
-
-A GPU is recommended for the stance/policy/classification steps; CPU works for the small sample data shipped here. See [`docs/setup.md`](docs/setup.md) if you run into trouble.
-
-## Hands-on exercise (~45 min)
-
-| Part | Time | What you do |
-|------|------|-------------|
-| A — Manual annotation | 10 min | Annotate 10 sentences using the codebook; compare with a neighbour |
-| B — Run the pipeline | 20 min | Apply `groupappeals` to the sample (or your own) data |
-| C — Explore & validate | 15 min | Compute distributions, spot-check 5–10 outputs, characterise errors |
+| Part | What you do |
+|------|--------------|
+| A — Run the pipeline | Apply `groupappeals` to the sample (or your own) data |
+| B — Manual annotation | Annotate 10 sentences using the codebook; compare with a neighbour |
+| C — Explore & validate | Compute distributions, spot-check 5–10 outputs, characterise errors |
 
 Full instructions live in [`exercises/`](exercises/).
 
